@@ -9,6 +9,7 @@ endif
 let g:colors_name = "classic_default"
 
 hi Normal       gui=NONE    guifg=Black     guibg=NONE
+hi Bold         gui=bold    guifg=Black     guibg=NONE
 
 hi Visual       gui=NONE    guifg=NONE      guibg=#C6DEFF
 hi CursorLine   gui=NONE    guifg=NONE      guibg=#d7f3b8
@@ -25,15 +26,18 @@ hi Statement	  gui=NONE    guifg=#0c1a7e   guibg=NONE
 hi Error	      gui=NONE    guifg=White     guibg=Red
 hi Todo		      gui=NONE    guifg=Black     guibg=Yellow
 
+hi! link NonText        VertSplit
 hi! link LineNr         Pmenu
 hi! link Identifier     Normal
 hi! link Special        Normal
 hi! link PreProc        Normal
 hi! link Type           Normal
+hi! link Title          Bold
 hi! link String	        Constant
 hi! link Character	    Constant
 hi! link Number		      Constant
 hi! link Boolean		    Constant
+hi! link Directory	    Constant
 hi! link Float		      Number
 hi! link Function	      Identifier
 hi! link Conditional	  Statement
@@ -42,6 +46,7 @@ hi! link Label		      Statement
 hi! link Operator	      Statement
 hi! link Keyword		    Statement
 hi! link Exception	    Statement
+hi! link SpecialKey     Statement
 hi! link Include	      PreProc
 hi! link Define		      PreProc
 hi! link Macro		      PreProc
