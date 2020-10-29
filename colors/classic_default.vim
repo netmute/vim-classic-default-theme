@@ -8,8 +8,8 @@ endif
 
 let g:colors_name = "classic_default"
 
-hi Normal       gui=NONE    guifg=Black     guibg=NONE
-hi Bold         gui=bold    guifg=Black     guibg=NONE
+hi Normal       gui=NONE    guifg=#333333   guibg=NONE
+hi Bold         gui=bold    guifg=NONE      guibg=NONE
 
 hi Visual       gui=NONE    guifg=NONE      guibg=#C6DEFF
 hi CursorLine   gui=NONE    guifg=NONE      guibg=#d7f3b8
@@ -22,7 +22,7 @@ hi PmenuSel     gui=NONE    guifg=NONE      guibg=#C6DEFF
 hi Comment	    gui=italic  guifg=#236e25   guibg=NONE
 hi Constant	    gui=NONE    guifg=#891314   guibg=NONE
 hi Statement	  gui=NONE    guifg=#0c1a7e   guibg=NONE
-hi Number   	  gui=NONE    guifg=#0000ff   guibg=NONE
+hi Number   	  gui=NONE    guifg=#0000cc   guibg=NONE
 
 hi Error	      gui=NONE    guifg=White     guibg=Red
 hi Todo		      gui=NONE    guifg=Black     guibg=Yellow
